@@ -37,11 +37,23 @@ export default class Board extends Component {
 			}
 	render() {
 
-			 
+
+		let cardList = this.state.heroList.map((hero, i) => {	
+			return(
+				<Card key={i} data={hero}/>
+			)
+		});	 
+
 		return(
 			<>
-				<Card/>
+				<div className="container">
+					<div className="row">
+						{cardList}
+					</div>
+				</div>
+
 			</>	
 			)
+
 	}
 }
