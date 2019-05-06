@@ -7,7 +7,7 @@ export default class Main extends Component {
 	render() {
 		return(
 			<>
-				<Board/>
+				<Board orders={this.props.orders}/>
 			</>	
 			)
 	}
