@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from './components/Navbar/NavBar.jsx';
 import Main from './components/Main/Main.jsx';
 import Create from './components/create/create.jsx';
+import Order from './components/Orderpage/orderpage.jsx';
 import { Route } from 'react-router-dom';
 
 class App extends Component {
@@ -35,6 +36,12 @@ class App extends Component {
                 }
               ]
             }          
+    }
+
+        addNewOrder = order => {
+          let newOrder = this.state.orderList;
+          newOrder.push(order);
+          this.setState({orderList: newOrder});
         }
 
 
@@ -42,10 +49,12 @@ class App extends Component {
     return (
     	<>
 	    	<NavBar/>
-	    	<Route path="/create" component={Create}/>
+	    	<Route path="/create" 
+          render={(props) => <Create addNewOrder={(order) => this.addNewOrder(order)}/>}/>
 
 	    	<Route path="/Main"
           render={(props) => <Main orders={this.state.orderList}/>}/>
+        <Order/>
 	    	
     	</>
     );

@@ -6,7 +6,7 @@ export default class Card extends Component {
 		return(
 			<div className="col-md-6">
 				<div className="card">
-				  <img src="..." class="card-img-top" alt="..."/>
+				  <img src="..." className="card-img-top" alt="..."/>
 				  <div className="card-body">
 				    <div className="card-title">
 				    	{this.props.data.name}
