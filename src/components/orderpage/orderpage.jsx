@@ -2,22 +2,24 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 export default class Card extends Component {
 		render() {
+			
+			const orderData = this.props.orders.filter(order => order.name === this.props.match.params.name);
+
 		return(
 			<>
-				<h1>кррррр</h1>
+				
 				<div className = "row">
 					<div className="col-md-6">
-						<p>fsdszvsd</p>
+						<h1>{this.props.match.params.name}</h1>
 					</div>
 					<div className="col-md-6">
-						<p className = "desc">fsdszvsd</p>
+						{orderData[0].desc}
 					</div>
 					<div className="col-md-6">
-						<h2 className = "desc">Notes</h2>
 					</div>
 				</div>
 				<div className = "notes">
-					<p>dsdsasbfzcxbafdberaeahaer</p>
+					<p>blah blah blah</p>
 				</div>
 				<div className = "row">
 					<div className="col-md-6">

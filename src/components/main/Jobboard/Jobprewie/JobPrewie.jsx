@@ -14,7 +14,7 @@ export default class Card extends Component {
 				    <div className="card-text">
 				    	{this.props.data.desc}
 				    </div>
-				    <Link href="#" className="btn btn-primary">Go somewhere</Link>
+				    <Link to={`/order/${this.props.data.name}`} href="#" className="btn btn-primary">More</Link>
 				  </div>
 				</div>
 			</div>

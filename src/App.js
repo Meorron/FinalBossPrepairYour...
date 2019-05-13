@@ -49,13 +49,13 @@ class App extends Component {
     return (
     	<>
 	    	<NavBar/>
+        <Route exact path="/"
+          render={(props) => <Main orders={this.state.orderList}/>}/>
 	    	<Route path="/create" 
           render={(props) => <Create addNewOrder={(order) => this.addNewOrder(order)}/>}/>
-
-	    	<Route path="/Main"
-          render={(props) => <Main orders={this.state.orderList}/>}/>
-        <Order/>
-	    	
+	    	<Route path="/order/:name"
+          render={props => <Order {...props} orders={this.state.orderList}/>}/>
+        }
     	</>
     );
 

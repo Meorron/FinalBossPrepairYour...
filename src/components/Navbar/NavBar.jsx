@@ -10,7 +10,7 @@ export default class Navbar extends Component {
 				    <ul className="navbar-nav mr-auto">
 				    	<h1>ImgieArt</h1>
 				      <li className="nav-item active">
-				        <Link to={'/main'} className="nav-link">Main</Link>
+				        <Link to={'/'} className="nav-link">Main</Link>
 				      </li>
 				      <li className="nav-item">
 				        <Link to={'/create'} className="nav-link" >Create</Link>

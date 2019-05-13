@@ -15,17 +15,17 @@ export default class Main extends Component {
 		return(
 			<>
 			<div className = "container">
-				<form onSubmit={this.onSubmit}>
+				<form onSubmit={this.onSubmit}  autocomplete="off">
 					<div className = "row">
 						<div className="col-md-6">
 							<div>
 								<div className="form-group">
 									<label for="exampleInputEmail1">Name</label>
-									<input type="text" className=""  placeholder="name of your project" ref={(el) => this.name = el}/>	    
+									<input type="text" className=""  placeholder="name of your project"  ref={(el) => this.name = el}/>	    
 								</div>
 								<div className="form-group">
 				    				<label for="exampleFormControlTeinputNamextarea1">Description</label>
-				    				<textarea className="inputDesc" rows="5" placeholder="description of your project" ref={(el) => this.description = el}> </textarea>
+				    				<textarea className="inputDesc" rows="5" placeholder="description of your project"  ref={(el) => this.description = el}> </textarea>
 				  				</div>
 				  			</div>
 				  		</div>
