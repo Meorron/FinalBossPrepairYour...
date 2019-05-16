@@ -1,0 +1,21 @@
+.card-img-top {
+	width: 50px !important;
+	height:70px;
+	background-position: center;
+  	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+
+.job-preview{
+	display: flex;
+	height: 250px;
+	flex-direction: row;
+
+	&__image {
+		width: 250px !important;
+		height:250px;
+		background-position: center;
+	  	background-size: cover;
+	 	background-repeat: no-repeat;
+	}
+}

@@ -8,15 +8,17 @@ export default class Card extends Component {
 		return(
 			<>
 				
+
+
+						<h1>{this.props.match.params.name}</h1>
 				<div className = "row">
 					<div className="col-md-6">
-						<h1>{this.props.match.params.name}</h1>
+						<img src={orderData[0].img}/>
 					</div>
 					<div className="col-md-6">
 						{orderData[0].desc}
 					</div>
-					<div className="col-md-6">
-					</div>
+
 				</div>
 				<div className = "notes">
 					<p>blah blah blah</p>
