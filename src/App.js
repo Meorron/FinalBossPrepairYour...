@@ -15,24 +15,28 @@ class App extends Component {
                 {
                   name:'funnyman',
                   desc:'God of Party',
-                  img: "./images/funnyman.jpg"
+                  img: "./images/funnyman.jpg",
+                  price:10
 
                 },
                 {
-                  name:'Jimbo',
-                  desc:'Starcraft profi',
-                  img:"./images/geek.jpg"
+                  name:'Power armor',
+                  desc:'I have this brilliant work of helmet of @JimboArtist, i like it very much. Can some body design a body for this costume? it would be great if it will be in the similar art style',
+                  img:"https://pp.userapi.com/c851424/v851424792/122d3b/CbxzHh-XRx4.jpg",
+                  price:'contracted price'
                   
                 },
                 {
-                  name:'Jonatan Jostar',
-                  desc:'Hamon master',
-                  img:"./images/jonathan.png"
+                  name:'Johana Causen',
+                  desc:'Human warrior, it is an art, and i want to have full-body referens. in interesting art-style. Can some body solve my problem? u can create your own armor style, as i have not any design skills. And pleas before to make thith attach your portfolio',
+                  img:"https://pp.userapi.com/c851020/v851020277/5a23b/05NND6mVPug.jpg",
+                  price:'contracted price'
                 },
                 {
-                  name:'superman',
-                  desc:'not enough to be proffesional? as Jonatan? bt is red pants are awesome',
-                  img: "https://im7.kommersant.ru/ISSUES.PHOTO/WEEKEND/2018/020/spw20_introd.png"
+                  name:'Cavierr Lonzelot',
+                  desc:'young human warrior 27 yo.Always very gloomy. Black hair, green eyes. He is 176 centimeters. Always wear dark clothes. I want to see him in a new style in everyday rich fantasy citizen clothes, pls',
+                  img: "https://pp.userapi.com/c846320/v846320158/1459c3/WLRYwTZZPeA.jpg",
+                  price:5
                 }
               ]
             }          
