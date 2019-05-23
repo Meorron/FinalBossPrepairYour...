@@ -1,12 +1,15 @@
+.card{
+	margin-bottom: 20px;
+}
 .job-preview {
 	display: flex;
 	height: 250px;
 	flex-direction: row;
-	padding: 2px 0 2px 2px;
+	padding: 5px 0 5px 5px;
 
 	&__image {
 		width: 30%;
-		height:245px;
+		height:240px;
 		background-position: center;
 	  	background-size: cover;
 	 	background-repeat: no-repeat;
@@ -16,5 +19,12 @@
 	&__info {
 		width: 70%;
 	}
+}
+.card-price{
+	display: flex;
+	flex-direction:row;
+}
+.btn{
+	
 }
 

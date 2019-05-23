@@ -1,0 +1,18 @@
+.orderpage__image{
+	width: 400px;
+	height:400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.info-desc{
+	max-height:385px;
+	width: 60%;
+	margin-bottom: 12px;
+}
+.info-price{
+	display: flex;
+	flex-direction: row;
+}
+.info-price h6{
+	margin-right: 6px;
+}

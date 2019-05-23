@@ -36,8 +36,8 @@ export default class Main extends Component {
 				    				<button>add</button>
 				  				</div>
 				  				<div className="form-group">
-				    				<label for="exampleFormControlTeinputNamextarea1">Notes</label>
-				    				<textarea className="inputDesc" rows="5" placeholder="add some notes"></textarea>
+				    				<label for="exampleFormControlTeinputNamextarea1">Price</label>
+				    				<input className="inputDesc"/>
 				  				</div>	
 				  			</div>
 

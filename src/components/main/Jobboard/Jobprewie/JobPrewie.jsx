@@ -12,10 +12,12 @@ export default class Card extends Component {
 						
 					  	<div className="card-body job-preview__info">
 						    <div className="card-title">
-						    	{this.props.data.name}
+						    	<h6>Project name</h6>
+						    	<h5>{this.props.data.name}</h5>
 						    </div>
 						    <div className="card-price">
-						    	{this.props.data.price}
+						    	<h6>Price: </h6>
+						    	<h6>{this.props.data.price}</h6>
 						    </div>
 					    <Link to={`/order/${this.props.data.name}`} href="#" className="btn btn-primary">More</Link>
 					  </div>
