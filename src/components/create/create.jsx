@@ -6,7 +6,9 @@ export default class Main extends Component {
 	event.preventDefault();
 		let newOrder = {
 			name: this.name.value,
-			desc: this.description.value			
+			desc: this.description.value,
+			price: this.price.value,
+			image: this.img.value
 		};	
 	this.props.addNewOrder(newOrder);
 	};
@@ -33,11 +35,11 @@ export default class Main extends Component {
 				  			<div>
 				  				<div className="form-group">
 				    				<label for="exampleFormControlTeinputNamextarea1">Image</label>
-				    				<button>add</button>
+				    				<input className="inputDesc" ref={(el) => this.img = el}/>
 				  				</div>
 				  				<div className="form-group">
 				    				<label for="exampleFormControlTeinputNamextarea1">Price</label>
-				    				<input className="inputDesc"/>
+				    				<input type="number" className="inputDesc" ref={(el) => this.price = el}/>
 				  				</div>	
 				  			</div>
 

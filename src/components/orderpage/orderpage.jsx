@@ -27,15 +27,6 @@ export default class Card extends Component {
 							</div>
 						</div>
 					</div>
-					<div className = "notes">
-						<p>blah blah blah</p>
-					</div>
-					<div className = "row">
-						<div className="col-md-6">
-
-							<p className = "profile">lmao</p>						
-						</div>
-				</div>
 
 			</>
 			)
