@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Card from './Jobprewie/JobPrewie.jsx';
+import Prewiestile from '../../../assets/styles/components/jobBoard/jobBoard.scss';
 
 export default class Board extends Component {
 	render() {
@@ -12,15 +13,11 @@ export default class Board extends Component {
 		});	 
 
 		return(
-			<>
 				<div className="container">
 					<div className="row">
 						{cardList}
 					</div>
 				</div>
-
-			</>	
-
 			)
 
 	}

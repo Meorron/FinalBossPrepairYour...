@@ -1,0 +1,55 @@
+
+.background{
+	height: 90vh;
+	background-image: url(../../../images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+*{
+	outline-color: #54E0E0;
+}
+h3{
+	color:#54E0E0;	
+}
+label{
+	color:#54E0E0;
+	font-size:17px;
+	font-weight: 400;
+}
+input{
+	background-color: #2C2C2C;
+	border: none;
+}
+textarea{
+	background-color: #2C2C2C;
+	border: none;
+	max-height: 400px;
+	width: 400px;	
+}
+
+.form-group-name label{
+	margin-right: 45px;
+}
+.form-group-description label, .form-group-image label{
+	margin-right: 5px;
+}
+.form-group-phone label{
+	margin-right: 40px;
+}
+.form-group-email label{
+	margin-right: 47px;
+}
+.form-group-price label{
+	margin-right: 15px;
+}
+button{
+	background-color: #2C2C2C;
+	color: #fff;
+	border:none;
+	width: 160px;
+	height: 35px;
+}
+

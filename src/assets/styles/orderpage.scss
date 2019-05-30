@@ -1,22 +1,51 @@
 .orderpage__image{
-	width: 400px;
 	height:400px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+h1{
+	color: white;
+}
 .info-desc{
 	max-height:385px;
 	width: 60%;
-	margin-bottom: 12px;
+	margin: 12px;
 }
 .info-price{
 	display: flex;
 	flex-direction: row;
+	color: white;
 }
 .info-price h6{
 	margin-right: 6px;
+	color: white;
 }
 .info-desc{
 	height: 400px;
 	overflow: auto;
+	color: white;
+}
+.profileImage{
+	width: 100px;
+	height:100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border:2px solid white;
+}
+h5{
+	color: white;
+}
+.profile{
+	position: absolute;
+	right: 230px;
+	display: flex;
+	justify-content: flex-start;
+
+}
+.profile h5{
+	position: absolute;
+	bottom:0;
+	left: 90px;
 }

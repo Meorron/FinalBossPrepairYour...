@@ -1,6 +1,23 @@
-.navbar{
-	margin-bottom: 20px;
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+	background-color: #2C2C2C !important;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
 }
+a{
+		color: white !important;	
+}
+
+
 .navbar-light{
+	background-color: black;
+}
+.navbar-nav{
+	display: flex;
+	align-items: center;
+}
+
+body {
 	background-color: black;
 }

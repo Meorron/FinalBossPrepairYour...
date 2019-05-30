@@ -14,8 +14,8 @@ class App extends Component {
             orderList: [
                 {
                   name:'funnyman',
-                  desc:'God of Party',
-                  img: "./images/funnyman.jpg",
+                  desc:'Quis commodo odio aenean sed. Auctor neque vitae tempus quam pellentesque nec. Dolor sit amet consectetur adipiscing elit ut aliquam purus.Quis commodo odio aenean sed. Auctor neque vitae tempus quam pellentesque nec. Dolor sit amet consectetur adipiscing elit ut aliquam purus.Quis commodo odio aenean sed. Auctor neque vitae tempus quam pellentesque nec.',
+                  img: "",
                   customer: "SomeDude2000",
                   customerimg:"https://pixelbox.ru/wp-content/uploads/2018/02/saitama_steam_avatars.png",
                   price:10
@@ -70,7 +70,7 @@ class App extends Component {
           render={(props) => <Create addNewOrder={(order) => this.addNewOrder(order)}/>}/>
 	    	<Route path="/order/:name"
           render={props => <Order {...props} orders={this.state.orderList}/>}/>
-        }
+        
     	</>
     );
 

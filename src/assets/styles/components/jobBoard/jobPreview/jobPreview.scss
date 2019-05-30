@@ -1,5 +1,13 @@
+
 .card{
-	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border:none;
+
+}
+.job-preview{
+	background-color:#2C2C2C;
+	color: white;	
 }
 .job-preview {
 	display: flex;
@@ -24,8 +32,13 @@
 	display: flex;
 	flex-direction:row;
 }
-.btn{
-	margin-bottom: 29%;
+.card-price{
+	color: #54E0E0;
+}
+.button{
+
+	color:#54E0E0;
+	text-decoration: underline; 
 }
 .profilePic{
 	width: 60px;
@@ -33,6 +46,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	border:2px solid white;
 	border-radius: 50%;
 	position: absolute;
 	top: 90%;
